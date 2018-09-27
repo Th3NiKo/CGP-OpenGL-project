@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Testing" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Testing" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Testing" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DGLEW_STATIC" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glew32s" />
+			<Add library="opengl32" />
+			<Add library="freeglut" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+			<Add directory="C:/glew-2.1.0/lib/Release/Win32" />
+		</Linker>
+		<Unit filename="glew32.dll" />
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/Graph.h" />
+		<Unit filename="include/Render_Utils.h" />
+		<Unit filename="include/RigidBody.h" />
+		<Unit filename="include/Shader_Loader.h" />
+		<Unit filename="include/Texture.h" />
+		<Unit filename="include/objload.h" />
+		<Unit filename="include/picopng.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/Graph.cpp" />
+		<Unit filename="src/Render_Utils.cpp" />
+		<Unit filename="src/RigidBody.cpp" />
+		<Unit filename="src/Shader_Loader.cpp" />
+		<Unit filename="src/Texture.cpp" />
+		<Unit filename="src/picopng.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
