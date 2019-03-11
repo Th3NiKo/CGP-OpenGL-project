@@ -1,5 +1,5 @@
 # CGP-OpenGL-project
-Project created for educational purposes. Subject: Computer Games programming.
+Project created for educational purposes. Quality of code wasn't evaluated (fast typing). Subject: Computer Games programming.
 Simple world made in OpenGL freeglut.
 Things used in project:
 <ul>
