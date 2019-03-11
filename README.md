@@ -2,13 +2,16 @@
 Project created for educational purposes. Subject: Computer Games programming.
 Simple world made in OpenGL freeglut.
 Things used in project:
--Rigidbodies and particles,
--Water effects using sinus and cosinus,
--Movement on curve,
--Object pooling like rain effect (Button P to enable),
--Terrain generation using perlin noise (for diffrent heights),
--Simple camera movement (Buttons Q E W S A D),
--It is possible to move generated Trees up and down using N and M button. 
+<ul>
+
+<li>Rigidbodies and particles,</li>
+<li>Water effects using sinus and cosinus,</li>
+<li>Movement on curve,</li>
+<li>Object pooling like rain effect (Button P to enable),</li>
+<li>Terrain generation using perlin noise (for diffrent heights),</li>
+<li>Simple camera movement (Buttons Q E W S A D),</li>
+<li>It is possible to move generated Trees up and down using N and M button. </li>
+</ul>
 To use M button u need to turn off N first!
 
 Read if u want to compile yourself.
